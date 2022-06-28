@@ -1,0 +1,118 @@
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    font: 22px roboto;
+    min-height: 800px;
+}
+
+header {
+    display: flex;
+    justify-content:center ;
+    flex-direction: row;
+    color: white;
+    padding: 10px;
+    font-size: 65px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.432);
+    margin: 20px 0;
+    text-shadow: 5px 5px 10px black;
+}
+
+#logo{
+    margin: auto;
+}
+
+h1{
+    margin: auto;
+}
+
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.747);
+    font: 22px;
+    color: white;
+    height: 60px;
+    text-underline-position:above;
+    border-radius: 10px;
+    margin: 0 0 20px 0;
+}
+
+.top h1{
+    font-size: 28px;
+}
+
+main {
+    margin: auto;
+    width: 1324px;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    box-shadow: none;
+
+}
+
+section {
+    background:  rgba(255, 255, 255, 0.829);
+    border-radius: 10px;
+    width: 640px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+}
+
+div {
+    margin: 5px;
+}
+
+.box1 {
+    width: 380px;
+    min-height: 240px;   
+}
+
+#res {
+    width: 380px;
+    min-height: 240px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+}
+
+.icons {
+    width: 200px;
+    border-radius: 200px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px black;
+
+}
+
+.box2 {
+    width: 820px;
+    
+}
+
+#map {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    min-height: 512px;
+}
+
+p {
+    cursor: pointer;
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+}
